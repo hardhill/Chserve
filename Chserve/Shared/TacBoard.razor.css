@@ -1,0 +1,17 @@
+﻿.field{
+    display: block;
+    width: 100%;
+    background-color: #4e555b;
+    padding: 1rem;
+}
+.rows{
+    display: flex;
+    width: 800px;
+    
+}
+.cell{
+    width: 80px;
+    height: 80px;
+    background-color: #abdde5;
+    border: solid 1px #4e555b;
+}

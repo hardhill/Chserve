@@ -1,0 +1,19 @@
+﻿<div class="field">
+@for(int r=0;r<10;r++){
+    <div class="rows">    
+    @for(int n=0;n<10;n++){
+        <div class="cell" @onclick="@(e => MoveTac(@r,@n))">@board[r,n]</div>    
+    }
+    </div>
+}
+
+    
+
+</div>
+@code {
+    private int[,] board = new int[10,10];
+    public void MoveTac(int r,int n){
+        Console.Out.WriteLine($"{r} {n}");    
+    }
+   
+}
